@@ -41,10 +41,10 @@ if __name__ == "__main__":
     completedAClass = False
     currentClass = 0
     # this one gets the /dev/video0 camera
-    camera = cv2.VideoCapture(0)
+    #camera = cv2.VideoCapture(0)
     # reading from ip works! you just need to check that the ip is right
     # and that the ip is correct
-    #camera = cv2.VideoCapture("http://192.168.43.1:8080/video")
+    camera = cv2.VideoCapture("http://192.168.43.1:8080/video")
     
     # these need to be updated
     # also they need to be scaled according to the number of pixels
